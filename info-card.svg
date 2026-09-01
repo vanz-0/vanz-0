@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 845" width="490" height="845" font-family="monospace">
+<style>
+@keyframes slideFade {
+  0% { opacity: 0; transform: translateX(-10px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+.line {
+  opacity: 0;
+  animation: slideFade 0.5s ease-out forwards;
+}
+</style>
+<rect width="490" height="845" rx="12" fill="#0d1117"/>
+<rect x="1" y="1" width="488" height="843" rx="11" fill="none" stroke="#30363d"/>
+<rect x="0" y="0" width="490" height="30" rx="12" fill="#111722"/>
+<rect x="0" y="16" width="490" height="14" fill="#111722"/>
+<circle cx="20" cy="15" r="5" fill="#ff5f57"/>
+<circle cx="40" cy="15" r="5" fill="#febc2e"/>
+<circle cx="60" cy="15" r="5" fill="#28c840"/>
+<text x="245" y="19" text-anchor="middle" fill="#7d8590" font-size="11">vanz-0 — system_info</text>
+<g transform="translate(40, 70)" font-size="14">
+<text x="0" y="0" fill="#c9d1d9" font-weight="bold" class="line" style="animation-delay: 0s;">vanz-0@github</text>
+<text x="0" y="13.0" fill="#7d8590" class="line" style="animation-delay: 0.3s;">-------------------</text>
+<g class="line" style="animation-delay: 0.6s;">
+  <text x="0" y="52" fill="#22d3ee">Name</text>
+  <text x="42" y="52" fill="#7d8590">:</text>
+  <text x="120" y="52" fill="#c9d1d9">vanz-0</text>
+</g>
+<g class="line" style="animation-delay: 0.8999999999999999s;">
+  <text x="0" y="91.0" fill="#22d3ee">Role</text>
+  <text x="42" y="91.0" fill="#7d8590">:</text>
+  <text x="120" y="91.0" fill="#c9d1d9">Web Development, Security, API, AI Automation</text>
+</g>
+<g class="line" style="animation-delay: 1.2s;">
+  <text x="0" y="130.0" fill="#22d3ee">Stack</text>
+  <text x="50" y="130.0" fill="#7d8590">:</text>
+  <text x="120" y="130.0" fill="#c9d1d9">Python, JS, Node, APIs</text>
+</g>
+<g class="line" style="animation-delay: 1.5s;">
+  <text x="0" y="169.0" fill="#22d3ee">Focus</text>
+  <text x="50" y="169.0" fill="#7d8590">:</text>
+  <text x="120" y="169.0" fill="#c9d1d9">Building secure, automated systems</text>
+</g>
+</g>
+</svg>
